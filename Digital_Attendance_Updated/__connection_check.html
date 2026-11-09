@@ -1,0 +1,3 @@
+<!doctype html><meta charset="utf-8"><title>Auth API connection check</title><pre id="out">Checking...</pre><script>
+(async()=>{const out=document.getElementById('out');try{const r=await fetch('https://acvmtmdcvewmjmmheqne.supabase.co/auth/v1/token?grant_type=password',{method:'POST',headers:{apikey:'sb_publishable_-lYKA0NH_Q0DyDZjE82Mlw_NQ3A4omh','Content-Type':'application/json'},body:'{}'});out.textContent='Auth POST reached Supabase. HTTP '+r.status+'; '+(await r.text()).slice(0,300)}catch(e){out.textContent='Browser fetch rejected: '+String(e)}})();
+</script>

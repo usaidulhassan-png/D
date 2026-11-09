@@ -1,0 +1,7 @@
+{
+  "name": "digital-attendance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first employee face and QR attendance PWA"
+}

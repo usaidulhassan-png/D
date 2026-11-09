@@ -1,0 +1,13 @@
+{
+  "name": "Digital Attendance — Smart Face & QR Attendance System",
+  "short_name": "Digital Attendance",
+  "description": "Offline-first employee attendance with local face recognition and QR scanning.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#155eef",
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
